@@ -1,16 +1,17 @@
 <html>
   <head>
     <title>skydive</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav>
+    <nav class="nav-bar">
       <ul>
         <li><a href="#structure">Day Structure</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#schedule">Schedule</a></li>
       </ul>
     </nav>
-    <header>
+    <header class="header-background header-style">
       <h1>
         <img
           src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png"
@@ -18,31 +19,39 @@
         />IronSkydive
       </h1>
       <h2>Let the trip begin</h2>
-      <aside>the best experience of our lives</aside>
+      <aside class="header-quote">
+        <i>"The best experience of our lives"</i>
+        <br />
+        Ariel Quiñones & Gonzalo Manrique, Ironhack Founders
+      </aside>
     </header>
-    <section>
+    <section id="general-information" class="dark-background">
       <article>
-        <h3>hello</h3>
-        <p>welcome to IronSkydive, the best adventure you will ever have</p>
-        <a href="#">Learn more</a>
+        <h3>Hello!</h3>
+        <p class="text">
+          welcome to IronSkydive, the best adventure you will ever have
+        </p>
+        <a href="#" class="link-btn">Learn more</a>
       </article>
       <article>
         <h3>About us</h3>
-        <p>
+        <p class="text">
           We like a lot programming websites,but we also love to practice sport
         </p>
-        <a href="#">Watch Video</a>
+        <a href="#" class="link-btn">Watch Video</a>
       </article>
       <article>
         <h3>Wanna join?</h3>
-        <p>Join our fitness program to be in good shape while learning.</p>
-        <a href="#">Register</a>
+        <p class="text">
+          Join our fitness program to be in good shape while learning.
+        </p>
+        <a href="#" class="link-btn">Register</a>
       </article>
     </section>
-    <section>
+    <section id="structure">
       <h3>How do we structure the day?</h3>
       <div>
-        <article>
+        <article class="service-box">
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png"
             alt="Training"
@@ -53,7 +62,7 @@
             kind of problem.
           </p>
         </article>
-        <article>
+        <article class="service-box">
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png"
             alt="get ready"
@@ -64,7 +73,7 @@
             All sizes available.
           </p>
         </article>
-        <article>
+        <article class="service-box">
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png"
             alt="fly"
@@ -75,7 +84,7 @@
             Fly!
           </p>
         </article>
-        <article>
+        <article class="service-box">
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png"
             alt="jump"
@@ -85,29 +94,29 @@
         </article>
       </div>
     </section>
-    <section>
+    <section id="team" class="dark-background">
       <h3>Team</h3>
-      <p>
+      <p class="section-tex">
         Our team collectively has 75 years of experience.Odds are, when you jump
         out of the plane whit these professionals, you won't go splat
       </p>
       <div>
         <article>
-          <h4>Harold Rothstein</h4>
+          <h4 class="member-name">Harold Rothstein</h4>
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg"
             alt="harold"
           />
         </article>
         <article>
-          <h4>Susan Phillips</h4>
+          <h4 class="member-name">Susan Phillips</h4>
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg"
             alt="susan"
           />
         </article>
         <article>
-          <h4>Taylor Roberts</h4>
+          <h4 class="member-name">Taylor Roberts</h4>
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg"
             alt="taylor"
@@ -115,7 +124,7 @@
         </article>
       </div>
     </section>
-    <section>
+    <section id="schedule">
       <h3>Schedule</h3>
       <table>
         <thead>
@@ -162,10 +171,10 @@
 
       <h3>Schedule a Time Slot</h3>
     </section>
-    <footer>
+    <footer class="dark-background footer">
       <section>
         <h5>Contact Information</h5>
-        <address>
+        <address class="address">
           IronSkydive<br />
           33 Rue la Fayette,<br />
           75009 Paris,<br />
